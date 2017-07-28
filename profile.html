@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Profile | Jejugram</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    rel="stylesheet">
+  <title>Profile | BeefGram</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 <body>
   <nav class="navigation">
@@ -26,9 +26,50 @@
       </a>
     </div>
   </nav>
-  <main>
-    profile
+
+  <main class="profile">
+    <header class="profile__header">
+      <img src="images/profile.png" />
+      <div class="profile__info">
+        <div class="profile__title">
+          <h1>ilovebeefsteak</h1>
+          <a href="edit-profile.html">
+            <button>Edit Profile</button>
+          </a>
+          <i class="fa fa-cog fa-lg"></i>
+        </div>
+        <ul class="profile__stats">
+          <li class="profile__stat">
+            <span class="profile__stat-number">313</span> posts</li>
+          <li class="profile__stat">
+            <span class="profile__stat-number">1,111</span>followers</li>
+          <li class="profile__stat">
+            <span class="profile__stat-number">11</span>following</li>
+        </ul>
+        <p class="profile__bio">
+          <span class="profile__fullname">Alex Shin</span>
+            love beef and code. what more do you need?
+            <a href="https://github.com/ilovebeefsteak/" class="profile__link">github.com/ilovebeefsteak/</a>
+        </p>
+      </div>
+    </header>
+    <div class="profile__photo-grid">
+      <div class="profile__photo-div">
+        <img src="images/feedimage.png">
+        <div class="profile__photo-overlay">
+          <span class="profile__photo-stat">
+            <i class="fa fa-heart-o">502</i>
+          </span>
+          <span class="profile__photo-stat">
+            <i class="fa fa-comment-o">2</i>
+          </span>
+        </div>
+        <div class="image"></div>
+      </div>
+    </div>
   </main>
+
+
   <footer>
     <nav class="footer__nav">
       <ul class="footer__list">
