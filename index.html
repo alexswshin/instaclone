@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Login | BeefGram </title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
   <main id="login">
@@ -12,14 +13,29 @@
       <img src="images/phoneImage.png" title="Phone image" alt="Phone image"/>
       <!-- Image-->
     </div>
+
     <div class="login__column">
-      <div class="login__box"></div>
+      <div class="login__box">
+        <img src="images/loginLogo.png" />
+        <form action="feed.html" method="get" class="login__form">
+          <input type="text" name = "username" placeholder="" required>
+          <input type="password" name = "password" placeholder="" required>
+          <input type="submit" value="Log in">
+        </form>
+        <span class="login__divider">
+          or
+        </span>
+        <a href="#" class="login__fb-link"><i class="fa fa-facebook-square"></i>Log in with Facebook</a>
+        <a href="#" class="login__small-link">Forgot password?</a>
+      </div>
+
       <div class="login__box">
         <span class="login__text">
           Have an account?
         </span>
         <a class="login__blue-link" href="https://www.instagram.com/">Log in</a>
       </div>
+
       <div class="login__t-box">
         <div class="login__appstores">
           <span class="login__text">
@@ -29,8 +45,24 @@
           <img src="images/android.png" class="login_appstores">
         </div>
       </div>
-
     </div>
+    <footer>
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer_item"><a href="#" class="footer__link">About us</a></li>
+          <li class="footer_item"><a href="#" class="footer__link">Support</a></li>
+          <li class="footer_item"><a href="#" class="footer__link">Blog</a></li>
+          <li class="footer_item"><a href="#" class="footer__link">Press</a></li>
+          <li class="footer_item"><a href="#" class="footer__link">API</a></li>
+          <li class="footer_item"><a href="#" class="footer__link">Jobs</a></li>
+          <li class="footer_item"><a href="#" class="footer__link">Privacy</a></li>
+          <li class="footer_item"><a href="#" class="footer__link">Terms</a></li>
+          <li class="footer_item"><a href="#" class="footer__link">Directory</a></li>
+          <li class="footer_item"><a href="#" class="footer__link">Language</a></li>
+        </ul>
+      </nav>
+      <span class="footer__copyright">© 2017 beefgram</span>
+    </footer>
   </main>
   <footer>YAY@YAY.com</footer>
 </body>
