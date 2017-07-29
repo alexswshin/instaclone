@@ -11,32 +11,35 @@
 #login .login__column {
   width: 47%;
 }
-#login .login__column img{
+#login .login__column > img{
   max-width: 100%;
 }
 
-.login__column .login__box {
+.login__column .login__box{
   background: white;
   border: 1px solid #e6e6e6;
   margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .login__column .login__box:nth-child(2) {
   margin-bottom: 30px;
 }
 
-.login__column .login__t-box {
+.login__column .login__t-box{
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-
-.login__appstores {
+.login__appstore{
   margin-top: 20px;
 }
-
 
 .login__appstores .login__appstore {
   height: 37px;
