@@ -11,7 +11,7 @@
 #login .login__column {
   width: 47%;
 }
-#login .login__column > img{
+#login .login__column > img {
   max-width: 100%;
 }
 
@@ -26,10 +26,74 @@
   align-items: center;
 }
 
+.login__box .login__blue-link{
+  color: #3897f0;
+}
+.login__column  .login__box:nth-child(1) {
+  padding: 25px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__box .login__form {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.login__form input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 10px 7px 7px 7px;
+  font-size: 14px;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+}
+
+.login__form input:focus{
+  outline: none;
+  border-color: #999;
+}
+
+.login__form input:first-child{
+  margin-bottom: 10px;
+}
+.login__form input:nth-child(2){
+  margin-bottom: 12px;
+}
+
+.login__form input[type="submit"] {
+  border: 0;
+  color: white;
+  font-weight: 500;
+  background-color: #3797f0;
+  padding: 7px;
+}
+
 .login__column .login__box:nth-child(2) {
   margin-bottom: 30px;
 }
 
+.login__box .login__divider {
+  margin: 20px auto 15px auto;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #999;
+}
+
+.login__box .login__fb-link{
+  margin-bottom: 20px;
+}
+
+login__box .login__small-link{
+  font-size: 12px;
+}
+
+login__fb-link,
+login__small-link {
+  color: #385185;
+}
 .login__column .login__t-box{
   display: flex;
   justify-content: center;
