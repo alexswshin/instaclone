@@ -1,0 +1,9 @@
+#explore {
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+
+.explore__users {
+  width: 100%;
+}

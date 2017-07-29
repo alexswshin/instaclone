@@ -35,7 +35,6 @@
   flex-direction: column;
   align-items: center;
 }
-
 .login__box .login__form {
   margin-top: 10px;
   width: 100%;
@@ -69,6 +68,7 @@
   font-weight: 500;
   background-color: #3797f0;
   padding: 7px;
+  cursor: pointer;
 }
 
 .login__column .login__box:nth-child(2) {
