@@ -31,13 +31,16 @@
   <main id="edit-profile">
     <div class="edit-profile__container u-default-box">
       <header class="edit-profile__header">
-        <img src="images/avatar.jpg" />
-        <h1 class="edit-profile__username">serranoarevalo</h1>
+        <div class="header-container">
+          <img src="images/habrakw.png" />
+        </div>
+
+        <h1 class="edit-profile__username">ilovebeefsteak</h1>
       </header>
       <form class="edit-profile__form">
         <div class="edit-profile__row">
           <label class="edit-profile__label" for="name">Name</label>
-          <input id="name" type="text" value="Nicolás Serrano Arévalo">
+          <input id="name" type="text" value="Alex Shin">
         </div>
         <div class="edit-profile__row">
           <label class="edit-profile__label" for="username">Username</label>
@@ -68,13 +71,19 @@
           </select>
         </div>
         <div class="edit-profile__row">
-          <span class="edit-profile__label">Similar Account Suggestions</span>
+          <div class="edit-profile__label2">
+            <span>Similar Account Suggestions</span>
+          </div>
           <input id="similar" type="checkbox">
           <label for="similar">Include your account when recommending similar accounts people might want to follow.</label>
         </div>
         <div class="edit-profile__row">
-          <span></span>
-          <input type="submit">
+          <div class="edit-profile__label"></div>
+          <div class="edit-profile__submit">
+            <input type="submit"/>
+            <div>Temporarily disable my account</span>
+          </div>
+
         </div>
       </form>
     </div>
