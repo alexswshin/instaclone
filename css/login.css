@@ -5,9 +5,11 @@
   align-items: center;
   flex-wrap: nowrap;
   justify-content: space-between;
-  max-width: 1800px;
+  max-width: 900px;
 }
-
+#login img{
+  max-width: 100%;
+}
 #login .login__column {
   width: 47%;
 }

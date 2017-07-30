@@ -1,0 +1,79 @@
+@media screen and (min-width: 320px) and (max-width: 670px){
+  main{
+    margin-top:0;
+  }
+
+  .navigation input{
+    display: none;
+  }
+
+  .photo .photo__add-comment-container {
+    display: none;
+  }
+
+  .u-default-box{
+    background-color: transparent;
+    border: none;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  footer .footer__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .footer__list .footer__item {
+    margin-bottom: 10px;
+  }
+
+  #profile .profile__header{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile__header .profile__info{
+    display: flex;
+    flex-direction: column;
+  }
+  .profile__info .profile__stats{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    order:1;
+  }
+  #login{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: none;
+  }
+  #login .login__column:first-child{
+    display: none;
+  }
+  #login .login__column:nth-child(2){
+    width: 100%;
+  }
+
+  #login .login__column .login__box:nth-child(2){
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .login__box .login__divider,
+  .login__box .login__fb-link{
+    display: none;
+  }
+
+  .login__box .login__small-link{
+    margin-top: 20px;
+  }
+}
