@@ -53,7 +53,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     border: none;
   }
   #login .login__column:first-child{
